@@ -1,6 +1,4 @@
-import sys
-import types
-sys.modules['cgi'] = types.ModuleType('cgi')
+
 import streamlit as st
 import pandas as pd
 from textblob import TextBlob
